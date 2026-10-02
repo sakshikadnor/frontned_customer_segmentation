@@ -6,7 +6,7 @@ document.getElementById("customer_form").addEventListener("submit",async functio
   const response=await fetch("https://backend-customer-segmentation-1.onrender.com/predict",
     {
       method:"POST",
-      headers:{"content-Type":"application/json"},
+      headers:{"Content-Type":"application/json"},
       body:
       JSON.stringify({
         annual_income:
