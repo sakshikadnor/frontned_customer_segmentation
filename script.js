@@ -1,4 +1,4 @@
-
+console.log("JAVASCRIPT LOADED");
 document.getElementById("customer_form").addEventListener("submit",async function(event){
   event.preventDefault();
   const annual_income=Number(document.getElementById("annual_income").value);
