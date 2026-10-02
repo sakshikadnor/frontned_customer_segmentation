@@ -19,6 +19,6 @@ document.getElementById("customer_form").addEventListener("submit",async functio
   );
 
   const data=await response.json();
-  document.getElementById("result").innerText=data.prediction;
+  document.getElementById("result").innerText=result.prediction;
 });
 
