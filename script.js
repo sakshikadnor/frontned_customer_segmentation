@@ -3,7 +3,7 @@ document.getElementById("customer_form").addEventListener("submit",async functio
   event.preventDefault();
   const annual_income=Number(document.getElementById("annual_income").value);
   const spending_score=Number(document.getElementById("spending_score").value);
-  const response=await fetch("https://backend-customer-segmentation-1.onrender.com",
+  const response=await fetch("https://backend-customer-segmentation-1.onrender.com/predict",
     {
       method:"POST",
       headers:{"content-Type":"application/json"},
