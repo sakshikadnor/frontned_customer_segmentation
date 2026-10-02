@@ -1,5 +1,5 @@
 
-document.getElementById("predictionform").addEventListener("submit",async function(event){
+document.getElementById("customer_form").addEventListener("submit",async function(event){
   event.preventDefault();
   const annual_income=Number(document.getElementById("annual_income").value);
   const spending_score=Number(document.getElementById("spending_score").value);
